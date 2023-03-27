@@ -10,7 +10,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-vrsion: "13"
-      name: Install dependiencies
+      -name: Install dependiencies
       run: npm intall
       -name: Run tests
       run: npm test 
