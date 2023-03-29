@@ -9,7 +9,7 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v3
         with:
-          node-version: "13"
+          node-version: 18
       - name: Install dependiencies
         run: npm intall
       - name: Run tests
