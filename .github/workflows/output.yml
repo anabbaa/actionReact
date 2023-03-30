@@ -1,8 +1,8 @@
-name: Ouput Information
+name: Output information
 on: workflow_dispatch
 jobs:
-  Infos:
-    rus-on: ubuntu-latest
+  info:
+    runs-on: ubuntu-latest
     steps:
-      - name: Output Github contexT
-        run: echo "${{toJsON(github)}}"
+      - name: Output GitHub context
+        run: echo "${{ toJSON(github) }}"
