@@ -1,0 +1,8 @@
+name: Ouput Information
+on: workflow_dispatch
+  jobs:
+    Info:
+      rus-on: ubuntu-latest
+      steps:
+       - name: Output Github context
+       run: echo "${{toJsON(github)}}"
