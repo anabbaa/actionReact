@@ -1,6 +1,7 @@
 # actionReact
 
 - workflows: build and test every pull request to your repository, or deploy merged pull requests to production
+- - on: which is evdent add man events by on: [push. workflows]
 - job: define runner
   steps: shell command action
   -action: app performs a typicialy complex task frequently repetitive task
@@ -16,3 +17,6 @@
   - after step uses the key word uses: then actons/name of action with version bytyping @v then number
   - with: some steps need configuration do it with key wor with: then enter and tap to another
     step go brack from your position
+    - may be you need another token tick on repo and workflows
+    - when xou excute two jobs it will excute them in parallel
+      need add to a job so it needs another job so it will started after first one finishd and if the first failed the second will not start to addd more needs: needs: [1, 2 ]

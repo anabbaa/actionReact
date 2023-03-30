@@ -3,6 +3,6 @@ on: workflow_dispatch
 jobs:
   Info:
     rus-on: ubuntu-latest
-      steps:
-        - name: Output Github contexT
-          run: echo "${{toJsON(github)}}"
+    steps:
+      - name: Output Github contexT
+        run: echo "${{toJsON(github)}}"
