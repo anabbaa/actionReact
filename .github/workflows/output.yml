@@ -4,5 +4,5 @@ on: workflow_dispatch
     Info:
       rus-on: ubuntu-latest
       steps:
-       - name: Output Github context
+       - name: Output Github contexT
        run: echo "${{toJsON(github)}}"
