@@ -1,7 +1,7 @@
 name: Ouput Information
 on: workflow_dispatch
 jobs:
-  Info:
+  Infos:
     rus-on: ubuntu-latest
     steps:
       - name: Output Github contexT
